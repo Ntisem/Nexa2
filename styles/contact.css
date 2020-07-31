@@ -347,6 +347,7 @@ section {
 *********************************/
 
 .header {
+    background-image: linear-gradient(rgb(212, 220, 228), rgb(215, 226, 233));
     position: fixed;
     top: 0;
     left: 0;
@@ -360,7 +361,13 @@ section {
 }
 
 .header.scrolled {
-    background: rgba(0, 0, 0, 0.85);
+    background: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.header .scrolled .reservations_phone {
+    background: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .header_content {
@@ -413,10 +420,15 @@ section {
 }
 
 .main_nav ul li a {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 700;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+.details {
+    color: #161616;
+    font-size: large;
 }
 
 .main_nav ul li a:hover {
@@ -429,7 +441,7 @@ section {
     padding-left: 25px;
     padding-right: 20px;
     text-align: center;
-    border: solid 2px #FFFFFF;
+    border: solid 2px #000000;
     font-size: 16px;
     font-weight: 700;
     color: #FFFFFF;
@@ -648,9 +660,11 @@ section {
 
 .contact {
     width: 100%;
-    background: #FFFFFF;
+    margin-top: 100px;
+    background-image: linear-gradient(rgb(212, 220, 228), rgb(215, 226, 233));
     padding-top: 116px;
     padding-bottom: 103px;
+    height: 700px;
 }
 
 .contact_title {
@@ -665,6 +679,10 @@ section {
 
 .contact_logo_container {
     margin-top: 59px;
+}
+
+.contact_logo_container img {
+    max-width: 300px;
 }
 
 .contact_logo_title {
@@ -705,16 +723,18 @@ section {
 
 .contact_list li>div:first-child div {
     width: 87px;
-    font-size: 20px;
-    color: #232323;
+    font-size: 15px;
+    color: #b4056b;
     line-height: 0.75;
+    font-weight: 600;
 }
 
 .contact_list li>div:last-child {
-    font-size: 15px;
-    color: #838383;
+    font-size: 17px;
+    color: #080808;
     line-height: 1.6;
     margin-top: -3px;
+    font-weight: bold;
 }
 
 .contact_social {
