@@ -15,10 +15,10 @@
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
     <link href="plugins/jquery-datepicker/jquery-ui.css" rel="stylesheet" type="text/css">
     <link href="plugins/jquery-timepicker/jquery.timepicker.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="styles/approach.css">
-    <link rel="stylesheet" type="text/css" href="styles/approach_responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/involved.css">
+    <link rel="stylesheet" type="text/css" href="styles/involved_responsive.css">
     <link rel="stylesheet" type="text/css" href="styles/util.css">
-    <link rel="stylesheet" type="text/css" href="styles/login.css">
+    <link rel="stylesheet" type="text/css" href="styles/logins.css">
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
 </head>
 
-<body>
+<body style="background-image: url(images/happ2.jpg);">
     <div class="super_container">
         <!-- Header -->
         <header class="header">
@@ -83,7 +83,7 @@
                     <li><a href="mental.html">Why Mental Health </a></li>
                     <li><a href="work.html">Our Work</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="getinvolved.html">Get Involved</a></li>
+                    <li><a href="getinovled.html">Get Involved</a></li>
                 </ul>
             </div>
             <div class="reservations_phone ml-auto"><a href="donate.html" style="color: #fff;"> DONATE</a></div>
@@ -91,104 +91,63 @@
                 <a href="signin.html">SIGN IN</a></div>
         </div>
     </div>
-    <!-- The Menu -->
-    <div class="themenu" style="background-image: linear-gradient( rgb(255, 255, 255), rgb(255, 255, 255));">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 offset-2">
-                    <div class="section_title_container text-center">
-                        <div class="home_content text-center" style="margin-top: 70px;">
-                            <div class="home_title">
-                                <h1 style="color: #000000; font-family: Kazimir, Georgia, Cambria, 'Times New Roman', Times, serif">Our Approach</h1>
-                            </div>
-                            <p style="font-size:16px;font-family:'Proxima Nova', sans-serif;text-align:center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--Content-->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-10">
+                <!-- End -->
+                <div class="row headingmain">
+                    <div class="col-lg-6 mx-auto" style="margin-bottom:150px">
+                        <div class="card themenu_col">
+                            <div class="card-header">
+                                <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
+                                    <!-- Credit card form tabs -->
+                                    <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-3">
+                                        <li class="nav-item">
+                                            <a data-toggle="pill" href="#credit-card" class="nav-link active "> <i class="fa fa-money mr-2"></i>Donate</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End -->
+                                <!-- Credit card form content -->
+                                <div class="tab-content">
+                                    <!-- credit card info-->
+                                    <div id="credit-card" class="tab-pane fade show active pt-3">
+                                        <form role="form">
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <div class="form-group"> <label><span class="hidden-xs">
+                                                        <h6>Name</h6>
+                                                    </span></label>
+                                                        <div class="input-group"> <input type="text" placeholder="Firstname" name="firstname" class="form-control" required> <input type="text" placeholder="Lastname" name="lastname" class="form-control" required> </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group"> <label for="firstname">
+                                            <h6>Phone number</h6>
+                                             </label>
+                                                <div class="input-group">
+                                                    <input type="text" name="phoneNumber" placeholder="Phone Number" class="form-control" required>
+                                                </div>
+                                            </div>
 
-                <div id="fh5co-couple-story">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-md-offset-0">
-                                <div class="timeline-badge">Planning</div>
-                                <ul class="timeline animate-box">
-                                    <li class="animate-box">
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h3 class="timeline-title">First We Meet</h3>
-                                                <span class="date">December 25, 2015</span>
+                                            <div class="row" style="margin-bottom: 20px;">
+                                                <div class="col-sm-8">
+                                                    <label for="firstname">
+                                                <h6>Amount</h6>
+                                            </label>
+                                                    <div class="input-group mb-2">
+                                                        <div class="input-group-prepend">
+                                                            <div class="input-group-text">GHc</div>
+                                                        </div>
+                                                        <input type="number" class="form-control" id="inlineFormInputGroup" placeholder="Amount">
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="timeline-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
+                                            <div class="card-footer"> <button type="button" class="subscribe btn btn-primary btn-block shadow-sm">SUBMIT</button>
+                                        </form>
                                         </div>
-                                    </li>
-                                    <li class="timeline-inverted animate-box">
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h3 class="timeline-title">Selecting a Partner</h3>
-                                                <span class="date">December 28, 2015</span>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="animate-box">
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h3 class="timeline-title">Determining Project Costs</h3>
-                                                <span class="date">January 1, 2016</span>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <div class="timeline-badge">Implementation</div>
-                                    <li class="timeline-inverted animate-box">
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h3 class="timeline-title">Selecting a Partner</h3>
-                                                <span class="date">December 28, 2015</span>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="animate-box">
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h3 class="timeline-title">Determining Project Costs</h3>
-                                                <span class="date">January 1, 2016</span>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <div class="timeline-badge">Proving It</div>
-                                    <li class="timeline-inverted animate-box">
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h3 class="timeline-title">Selecting a Partner</h3>
-                                                <span class="date">December 28, 2015</span>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                                                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -229,8 +188,8 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Get Involved</h4>
                         <ul>
-                            <li><i class="fa fa-angle-right"></i> <a href="donate.html">Fundrise</a></li>
-                            <li><i class="fa fa-angle-right"></i> <a href="getinvolved.html">Volunteer</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="doante.html">Donate</a></li>
+                            <li><i class="fa fa-angle-right"></i> <a href="getinvolved.html">Join Us</a></li>
                             <li><i class="fa fa-angle-right"></i> <a href="brand.html">Brand Partnerships</a></li>
                         </ul>
                     </div>
@@ -312,6 +271,9 @@
     <script src="vendor/countdowntime/countdowntime.js"></script>
     <!--===============================================================================================-->
     <script src="js/login.js"></script>
+    <script src="js/logins.js"></script>
 </body>
+
+</html>
 
 </html>
