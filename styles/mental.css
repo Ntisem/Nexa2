@@ -322,6 +322,13 @@ section {
     margin-top: 30px;
 }
 
+.page_subtitles {
+    font-family: "Proxima Nova", sans-serif;
+    color: #1d1d1d;
+    line-height: 0.75;
+    margin-top: 30px;
+}
+
 .button {
     width: 163px;
     height: 47px;
