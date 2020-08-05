@@ -34,6 +34,17 @@ input[type="radio"] {
     font-size: 400px;
 }
 
+.btn-primary {
+    background-color: #e85485;
+    border-color: #e85485;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #e85485;
+    border-color: #e85485;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
