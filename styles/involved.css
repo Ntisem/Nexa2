@@ -63,6 +63,26 @@
     color: #fff;
 }
 
+.button1 {
+    width: 303px;
+    height: 47px;
+    background: #e85485;
+    border: solid 2px #e85485;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 9px;
+    margin-left: 70px;
+    /* padding-left: 100px; */
+}
+
+.button1 a {
+    display: block;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 44px;
+    text-transform: uppercase;
+}
+
 
 /*********************************
 2. Body and some general stuff
@@ -1210,10 +1230,11 @@ element.style {}
     color: #636363;
 }
 
-.sig_button {
+
+/* .sig_button {
     margin-left: 9px;
     margin-top: 37px;
-}
+} */
 
 
 /*********************************
