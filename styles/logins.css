@@ -27,6 +27,25 @@ input[type="radio"] {
     /* margin-left: -100px; */
 }
 
+.col-lg-12 .foemheading {
+    text-align: center;
+    font-size: 400px;
+}
+
+
+/* 
+label>h6 {
+    text-transform: uppercase;
+    font-weight: 400;
+} */
+
+h6 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #838282;
+    text-transform: uppercase;
+}
+
 .textarea {
     height: 400px;
     font-size: 16px;
