@@ -24,6 +24,10 @@ input[type="radio"] {
     font-weight: bold;
 }
 
+strong {
+    color: rgb(44, 43, 43);
+}
+
 .headingmain {
     margin-top: 150px;
     /* margin-left: -100px; */
