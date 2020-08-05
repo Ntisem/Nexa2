@@ -592,7 +592,7 @@ section {
     background-color: #e85485;
     box-shadow: 5px #e85485;
     width: 250px;
-    margin-left: 180px;
+    /* margin-left: 180px; */
     margin-top: 30px;
 }
 
